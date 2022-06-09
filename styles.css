@@ -46,8 +46,11 @@ img {
 .left a {
     font-weight: bold;
     color: red;
-    border-left: 1px solid red;
     padding-left: 20px;
+}
+
+.menu {
+    border-left: 1px solid red;
 }
 
 .bottom-header {
@@ -92,6 +95,15 @@ img {
     background: red;
     display: flex;
     justify-content: center;
+}
+
+.red-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.red-wrapper ul a:hover {
+    text-decoration-line: underline;
 }
 
 .container {
